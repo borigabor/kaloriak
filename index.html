@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportok és kalóriák</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <h3>Sportok és kalóriák</h3>
+
+    <form class="input-fields">
+        <table>
+
+            <tr>
+                <th>Sport,mozgás</th>
+                <th>kcal/óra</th>
+                <th>perc</th>
+                <th>kcal</th>
+            </tr>
+            <tr>
+                <td>Futás</td>
+                <td>680</td>
+                <td>
+                    <input type="num" data-kcal="680" class="input-field input-data" id="futas">
+                </td>
+                <td>
+                    <input type="num" id="futas-eredmeny" class="input-field">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Focizás</td>
+                <td>550</td>
+                <td>
+                    <input type="num" data-kcal="550" class="input-field input-data" id="focizas">
+                </td>
+                <td>
+                    <input type="num" id="focizas-eredmeny" class="input-field">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Bringázás</td>
+                <td>480</td>
+                <td>
+                    <input type="num" data-kcal="480" class="input-field input-data" id="bringazas">
+                </td>
+                <td>
+                    <input type="num" id="bringazas-eredmeny" class="input-field">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Hegymászás</td>
+                <td>420</td>
+                <td>
+                    <input type="num" data-kcal="420" class="input-field input-data" id="hegymaszas">
+                </td>
+                <td>
+                    <input type="num" id="hegymaszas-eredmeny" class="input-field">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Loavaglás</td>
+                <td>370</td>
+                <td>
+                    <input type="num" data-kcal="370" class="input-field input-data" id="lovaglas">
+                </td>
+                <td>
+                    <input type="num" id="lovaglas-eredmeny" class="input-field">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Túrázás</td>
+                <td>360</td>
+                <td>
+                    <input type="num" data-kcal="360" class="input-field input-data" id="turazas">
+                </td>
+                <td>
+                    <input type="num" id="turazas-eredmeny" class="input-field">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Kajakozás</td>
+                <td>340</td>
+                <td>
+                    <input type="num" data-kcal="340" class="input-field input-data" id="kajakozas">
+                </td>
+                <td>
+                    <input type="num" id="kajakozas-eredmeny" class="input-field">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Súlyzós edzés</td>
+                <td>320</td>
+                <td>
+                    <input type="num" data-kcal="320" class="input-field input-data" id="edzes">
+                </td>
+                <td>
+                    <input type="num" id="edzes-eredmeny" class="input-field">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Pingpongozás</td>
+                <td>270</td>
+                <td>
+                    <input type="num" data-kcal="270" class="input-field input-data" id="pingpong">
+                </td>
+                <td>
+                    <input type="num" id="pingpong-eredmeny" class="input-field">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Kutyasétáltatás</td>
+                <td>200</td>
+                <td>
+                    <input type="num" data-kcal="200" class="input-field input-data" id="setaltatas">
+                </td>
+                <td>
+                    <input type="num" id="setaltatas-eredmeny" class="input-field">
+                </td>
+            </tr>
+
+            <tr>
+                <th colspan="2">Összesen:</th>
+                <th>
+                    <input type="num" class="input-field" id="ossz-perc">
+                </th>
+                <th>
+                    <input type="num" class="input-field" id="ossz-kcal">
+                </th>
+            </tr>
+
+            <tr>
+                <th colspan="3">Napi energiaszükséglet (2000 kcal) arányában:</th>
+                <th>
+                    <input type="num" class="input-field" id="szazalek">%
+                </th>
+
+            </tr>
+
+        </table>
+
+    </form>
+
+    <button class="button" id="adatok-torlese">Adatok törlése</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
